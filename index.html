@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion Studios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Satisfy&family=Yesteryear&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Fluid cursor -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="goo" version="1.1" width="100%">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur"></feGaussianBlur>
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15" result="goo"></feColorMatrix>
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite>
+            </filter>
+        </defs>
+    </svg>
+    <div id="cursor"></div>
+    <!-- End of Fluid cursor-->
+    <div class="background-decoration"3>
+        <div class="dots"></div>
+        <div class="lines"></div>
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="camera camera-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+    <header>
+        <nav>
+            <div class="container-header">
+                <div class="logo">
+                    <span class="site-name">Motion Studio</span>
+                    <img src="Icon3.png" alt="Akima Logo" class="logo-img">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work-section">Work</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+                <button class="get-started-btn">
+                    <a href="https://calendly.com/mradulaf/quick-get-together-call">Get Started</a>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        
+        <div class="video-container">
+            <video autoplay loop muted playsinline id="promo-video" controls>
+                <source src="Website Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- <h1>
+            <span class="gradient-text">"Content that Sells and Scales"</span><br>
+        </h1> -->
+        <!-- <div class="underline"></div> -->
+            <a class="book-now-btn" href="https://calendly.com/mradulaf/quick-get-together-call">Book a Call</a>
+        
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Content Creation</h3>
+                    <div class="service-item">
+                        <h4>Video Editing</h4>
+                        <p>"Your videos will stand out with smooth, engaging edits—no more spending hours trying to perfect them yourself."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Video Shooting</h4>
+                        <p>"Get stunning, high-quality visuals without the headache of managing equipment or a crew."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Graphic Designing</h4>
+                        <p>"Stand out from the crowd with eye-catching YouTube thumbnails and visuals that boost clicks."</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Content Strategy</h3>
+                    <div class="service-item">
+                        <h4>Content Planning</h4>
+                        <p>"Stay ahead with a clear, actionable plan that takes the guesswork out of what to create next."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Content Management</h4>
+                        <p>"Your content will always be organized, on time, and stress-free—no more juggling platforms or schedules."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Scriptwriting</h4>
+                        <p>"Enjoy ready-to-go scripts that grab attention and save you time brainstorming ideas."</p>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Marketing & Distribution</h3>
+                    <div class="service-item">
+                        <h4>Content Distribution</h4>
+                        <p>"Your content will reach the right audience at the right time, saving you the hassle of figuring out where and how to post."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Social Media Growth</h4>
+                        <p>"Watch your social media grow while you focus on running your business—we handle the heavy lifting."</p>
+                    </div>
+                    <div class="service-item">
+                        <h4>Audience Conversion</h4>
+                        <p>"Turn followers into loyal customers with content that drives results, without wasting time on trial-and-error"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Why Choose Motion Studios?</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h3>Monetize Your Audience</h3>
+                    <p>Turn your followers into paying customers and grow your revenue.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Efficient Management</h3>
+                    <p>Grow your business while we handle everything - from planning to posting.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Stand Out Instantly</h3>
+                    <p>Get high-quality videos, eye-catching thumbnails and engaging scripts that grab attention.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Quick and Reliable</h3>
+                    <p>Enjoy fast turnarounds and smooth revisions, so your content is always on point.</p>
+                </div>
+                <div class="feature-item">
+                <h3>Work With Experts</h3>
+                <p>Your content is in the hands of specialists with 3+ years of experience individually in their craft.</p>
+                </div>
+                <div class="feature-item">
+                 <h3>Customised Services</h3>
+                <p>Content solutions tailored to your goals, designed to match your vision and deliver results.</p>
+               </div>
+    </div>
+        </section>
+
+        <section class="work-carousel" id="work-section">
+            <h2>Our Work</h2>
+            <div class="carousel-container">
+                <div class="carousel-nav prev">&#10094;</div>
+                <div class="carousel-track">
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/FF1jFC91pj4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/JaCAoYOrgZo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/_VPtCyKtajE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/0iJYNG0ouRI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/SIUpDnZD1yI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-nav next">&#10095;</div>
+            </div>
+            <div class="carousel-container">
+                <div class="carousel-nav prev2">&#10094;</div>
+                <div class="carousel-track2">
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/B__a1BUIe40" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZC2_HMVdDJc?si=FtigaVyfabe3gnHt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/SPVP9C7-aMg?si=lFpbxFU6vlJlel31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/ZFRYBhQUh7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="carousel-item">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/yXDvSlKw7bI?si=kgSORCDbQq8V22Bc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="carousel-nav next2">&#10095;</div>
+            </div>
+        </section>
+
+        <section class="shorts-section">
+            <h2>Our Shorts</h2>
+            <div class="video-wrapper">
+                <video width="212" height="378" controls muted loop class="fade-in">
+                    <source src="videos/New year rewind 2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="212" height="378" controls muted loop class="fade-in">
+                    <source src="videos/New year rewind 2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="212" height="378" controls muted loop class="fade-in">
+                    <source src="videos/10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="212" height="378" controls muted loop class="fade-in">
+                    <source src="videos/Urban Nomads Cinematics.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video width="212" height="378" controls muted loop class="fade-in">
+                    <source src="videos/Yoga Promotion Reel.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+                    <div class="empty"></div>
+
+            <div>   
+                <a class="book-now-btn" href="featured.html">View More</a>
+            </div>
+                    <div class="empty"></div>
+
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="rolling-track">
+                <div class="rolling-card">
+                    <h3>Abhishek</h3>
+                    <p class="role">Founder of JustPrem Sangha</p>
+                    <p class="quote">"Working with Motion Studios has been amazing! Their young, passionate team has helped me with several projects, and I’m so grateful for their support in helping me grow my own company too. Thanks, Motion Studios!"</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Harry Ranveer</h3>
+                    <p class="role">Founder of Videopreneur</p>
+                    <p class="quote">"Mradul Sharma has been an exceptional teammate, treating our work like his own. His adaptability, reliability, and dedication have exceeded all expectations, making him someone I trust completely. If you’re looking for someone who consistently delivers and goes the extra mile, His team is the one."</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Vir</h3>
+                    <p class="role">Founder of Leap Media</p>
+                    <p class="quote">"Mradul and team is amazing to work with! He gets the job done on time, understands exactly what you need in the first go, and keeps things super smooth with no back-and-forth hassle. Plus, he's super helpful and always goes the extra mile!"</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Ritchie</h3>
+                    <p class="role">Founder of Kresco</p>
+                    <p class="quote">"Motion Studios did an amazing job editing our video and creating something truly beautiful. They’re super friendly, talented, and a pleasure to work with. Highly recommend!"</p>
+                </div>
+                <!-- Duplicate set for infinite scroll -->
+                <div class="rolling-card">
+                    <h3>Abhishek</h3>
+                    <p class="role">Founder of JustPrem Sangha</p>
+                    <p class="quote">"Working with Motion Studios has been amazing! Their young, passionate team has helped me with several projects, and I’m so grateful for their support in helping me grow my own company too. Thanks, Motion Studios!"</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Harry Ranveer</h3>
+                    <p class="role">Founder of Videopreneur</p>
+                    <p class="quote">"Mradul Sharma has been an exceptional teammate, treating our work like his own. His adaptability, reliability, and dedication have exceeded all expectations, making him someone I trust completely. If you’re looking for someone who consistently delivers and goes the extra mile, His team is the one."</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Vir</h3>
+                    <p class="role">Founder of Leap Media</p>
+                    <p class="quote">"Mradul and team is amazing to work with! He gets the job done on time, understands exactly what you need in the first go, and keeps things super smooth with no back-and-forth hassle. Plus, he's super helpful and always goes the extra mile!"</p>
+                </div>
+                <div class="rolling-card">
+                    <h3>Ritchie</h3>
+                    <p class="role">Founder of Kresco</p>
+                    <p class="quote">"Motion Studios did an amazing job editing our video and creating something truly beautiful. They’re super friendly, talented, and a pleasure to work with. Highly recommend!"</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+           <h2 class="section-title">Connect with Us</h2>
+            <div class="contact-us-container">
+                <div class="left-content">
+                    <div class="book-now-container">
+                        <h3>Feel Free to Reach Us</h3>
+                        <a href="https://calendly.com/mradulaf/quick-get-together-call" class="book-now-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Book a Call
+                        </a>
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/akimafilms" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/akima-films/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BNweeH88hR5ml6Uv%2BBE0Enw%3D%3D" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <div class="email-group">
+                            <a href="mailto:hello@jewelthenoob.com" class="social-icon">
+                                <i class="fas fa-envelope"></i>
+                                <span>hello@jewelthenoob.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <form class="contact-form" action="send_email.php" method="POST">
+                        <input id="name" type="text" name="name" placeholder="Your Name" required />
+                        <input id="email" type="email" name="email" placeholder="Your Email" required />
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <p>&copy; 2024 Motion Studios. All rights reserved.</p>
+                <a href="https://mediamonksstudio.in/">Designed and Developed by R ! Y 4 Z</a>
+            </div>
+        </footer>
+        </main>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="index.js"></script>
+        <script src="script.js"></script>
+        <script>          
+        </script>
+        <button id="scrollUpBtn" style="display: none;">↑</button>
+    </body>
+</html>
